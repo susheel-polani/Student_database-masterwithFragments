@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Check Result"
+        android:textSize="34dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="sans-serif-medium" />
+
+    <Spinner android:id="@+id/spinnerTest"
+        android:layout_width="match_parent"
+        android:drawSelectorOnTop="true"
+        android:layout_marginTop="32dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_marginTop="100dp"
+        android:id="@+id/album_description_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Registration Number"
+        android:digits="0123456789"
+        android:maxLength="12"
+        android:inputType="phone"
+        android:fontFamily="sans-serif-medium"/>
+
+    <EditText
+        android:layout_marginTop="32dp"
+        android:id="@+id/album_description_view1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:digits="0123456789-"
+        android:maxLength="10"
+        android:inputType="phone"
+        android:hint="Enter DOB"
+        android:fontFamily="sans-serif-medium"/>
+    <Button
+        android:id="@+id/botton2"
+        android:layout_marginTop="42dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/custom_button"
+        android:layout_gravity="center_horizontal"/>
+
+</LinearLayout>
