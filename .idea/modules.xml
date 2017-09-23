@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Student_database-master.iml" filepath="$PROJECT_DIR$/Student_database-master.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Student_database-masterwithFragments.iml" filepath="$PROJECT_DIR$/Student_database-masterwithFragments.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
